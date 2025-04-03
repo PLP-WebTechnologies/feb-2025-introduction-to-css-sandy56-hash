@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    color: blueviolet;
+}
+
+/* ID Selector */
+#main-title {
+    font-style: oblique;
+    font-size: 2.5em;
+    color: purple;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Class Selectors */
+.description {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.image-gallery img {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sides-list {
+    list-style-type: none;
+    padding: 5;
+}
+
+.sides-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.sides-list li:last-child {
+    border-bottom: none;
+}
+
+/* Location Section */
+#location {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+#location h2 {
+    color: #2980b9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: purple;
+    color: black;
+}
